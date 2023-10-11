@@ -1,0 +1,17 @@
+.Titulo {
+    background-image: url("../img/Dedo_tactil.jpg");
+
+    .Indice_Semi_encabezado {
+        background-image: url("../img/laptop_nube.jpg");
+    }   
+
+    .Indice_Footer {
+        background-color: gray;
+        justify-content: center;
+        display: flex;
+    }
+
+    .Fin{
+        background-image: url("../img/navegacion.png");
+    }
+}

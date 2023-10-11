@@ -1,0 +1,108 @@
+
+//abtracts
+@import "./abstracts/variables";
+
+//base
+@import "./base/reset";
+
+//components
+@import "./components/navbar";
+
+//home
+@import "./pages/home";
+
+//servicios
+@import "./sections/servicios";
+
+//encabezado
+@import "./encabezado/titulo";
+
+
+//items
+@import "./items/partes";
+
+
+html {
+    font-size: 1rem;
+    background-color: #656a6d;
+}
+
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+h1{
+    color: rgb(12, 12, 12);
+    text-align: center;
+}
+
+p {
+    color: rgb(207, 127, 22);
+}
+
+h2{
+    color: #4883bf;
+    background-color: rgb(211, 169, 91);
+    font-style: italic;
+    text-align: center;
+}
+
+h3{
+    color: orange;
+    background-color: #4883bf;
+    text-align: center;
+}
+
+
+
+
+
+#Apple {
+    background-image: url("../img/apple_amarilla.jpg");
+    background-position: center;
+    color: black;
+}
+
+/*#Encabezado{
+    background-image: url("../img/IT.jpg")
+}*/
+
+
+/*#Enlaces{
+   background-image: url("../img/navegacion.png");
+    background-position: center;
+    
+}*/
+
+
+h1{
+    font-size: 45px;
+}
+
+
+
+
+
+
+
+
+.info-pieza-gamer{
+    padding: 15px 30px;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .info-pieza-gamer button{
+        border: none;
+        background: none;
+        background-color: #000;
+        color: #fff;
+        padding: 15px 10px;
+        cursor: pointer;
+    }
+}
+
+
+

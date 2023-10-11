@@ -1,0 +1,21 @@
+.nav {
+    padding: 20px 0; 
+
+    ul {
+        text-align: center;
+        background-color: rgb(38, 173, 173);    
+    }
+
+    li {
+        display: flex;
+        list-style-type: none;
+    }
+
+    a {
+        color:aqua;
+        text-decoration: none;
+        margin: 20px;
+        display: inline;
+    }
+    
+}
