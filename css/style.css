@@ -5,21 +5,33 @@
   box-sizing: border-box;
 }
 
-.nav {
-  padding: 20px 0;
+
+.nav { 
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+
+
 .nav ul {
   text-align: center;
   background-color: rgb(38, 173, 173);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .nav li {
   display: flex;
   list-style-type: none;
+  justify-content: center;
+  align-items: center;
 }
 .nav a {
   color: aqua;
   text-decoration: none;
-  margin: 20px;
+  margin: 5px;
   display: inline;
 }
 
@@ -160,6 +172,7 @@ h1 {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  text-decoration: none;
 }
 .info-pieza-gamer .info-pieza-gamer button {
   border: none;
@@ -168,6 +181,7 @@ h1 {
   color: #fff;
   padding: 15px 10px;
   cursor: pointer;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */
